@@ -1,0 +1,36 @@
+교재 받기 : bit.ly/supertrack-aws-courseware
+실습 연결 : bit.ly/supertrack-aws-handsonlab
+
+실습 동영상 : bit.ly/TESSLAB
+실습 사이트 : supertrack.qwiklabs.com
+
+--------------------------------------------------------------------------------------------
+
+AWS는 모든 서비스를 API로 제공 -> API로 제공 : 모든 기능을 코드로 활용가능
+
+엣지 로케이션 -> 사용자와 가장 가까운곳에 네트워크를 통해 응답시간을 최소화?
+가용영역(Available Zone, AZ)
+
+EC2생성 -> 리전 선택 -> Amazon 머신 이미지(AMI, 운영체제 템플릿)
+
+cloud는 multitenancy이다.
+
+보류가 있는 이유는 수천대의 물리 서버중에 내가 사용 가능한 기기를 찾는 과정이다
+-> 서버가 이용 가능한지 체크까지 실행.
+
+메타데이터 -> 최초 생성시에만 작동함, 내가 원하는 셋팅
+
+S3는 인터넷용 오브젝트 스토리지이다.
+
+버킷은 최상위 네임 스페이스 이다.
+
+S3는 버전관리, 수명주기 관리가 가능하다.
+
+S3 Glacier 는 자주쓰지 않는 자료 보관용.
+
+Elastic Block Store 는 블록단위로 처리해줌. -> USB와 비슷
+SSD 는 1Gib 당 3IOPS(Input output Operation per sec)
+EBS는 가용 영역 범위 서비스이다 
+각자 다른 가용 영역에 attach가 불가능하다.
+
+Instance Storage는 DAS(Dynamic attach system?)형태이다
